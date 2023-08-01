@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    background: rgb(82, 116, 27);
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: white;
+    color: rgb(82, 116, 27);
+}
