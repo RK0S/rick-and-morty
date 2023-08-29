@@ -42,7 +42,7 @@ export const CharactersList = () => {
             {characters.map((c) => (
                 <CharactersItem character={c} key={c.id} />
             ))}
-            {characters.length && <div className={cls.ref} ref={lastElement}></div>}
+            {Boolean(characters.length) && <div className={cls.ref} ref={lastElement}></div>}
             {isLoading && (
                 <div className={cls.wrapper}>
                     <h2>Loading...</h2>
